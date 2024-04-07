@@ -7,19 +7,21 @@ This are the steps to install and use LTspice 64 bits on Linux Ubuntu 20.04 . <b
 ## Installation
 
 ```
+sudo dpkg --add-architecture i386
+
 # Update your package manager.
 sudo apt-get update
 
 # Install Wine
-sudo apt-get install wine-stable
+sudo apt-get install wine64 wine64-preloader wine64-tools wine32:i386
 
 # Download LTSpice 64 bits
-cd /tmp/
+cd /home/jj5/software/ltspice
+
 wget https://ltspice.analog.com/software/LTspice64.exe
 
 # Install LTSpice
 wine LTspice64.exe
-rm LTspice64.exe
 ```
 
 ## How to execute LTspice 
@@ -112,3 +114,4 @@ To open the file ```LTspiceHelp.pdf``` just do:
 ## Have fun!
 Best regards, <br>
 João Nuno Carvalho <br>
+
