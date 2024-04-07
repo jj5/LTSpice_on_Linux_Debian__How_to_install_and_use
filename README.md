@@ -2,7 +2,7 @@
 Make great analog designs
 
 ## Description
-This are the steps to install and use LTspice 64 bits on Linux Ubuntu 20.04 . <br>
+These are steps to install and use LTspice 64-bit on Linux Debian 12 (bookworm).<br>
 
 ## Installation
 
