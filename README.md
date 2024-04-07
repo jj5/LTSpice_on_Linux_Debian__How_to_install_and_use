@@ -1,4 +1,4 @@
-# LTspice on Linux Ubuntu - How to install and use
+# LTspice on Linux Debian 12 - How to install and use
 Make great analog designs
 
 ## Description
