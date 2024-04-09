@@ -16,7 +16,7 @@ sudo apt-get update
 sudo apt-get install wine64 wine64-preloader wine64-tools wine32:i386
 
 # Download LTSpice 64 bits
-cd /home/jj5/software/ltspice
+cd /home/jj5/install/ltspice
 
 wget https://ltspice.analog.com/software/LTspice64.exe
 
